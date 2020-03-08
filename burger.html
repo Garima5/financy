@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="UTF-8">
+<title>SavingChoice</title>
+<link rel="stylesheet"  href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Sriracha|Mali&display=swap" rel="stylesheet">
+</head>
+<script>
+	function getValue(){
+		var value = 8.99;
+		var interest = parseFloat(document.getElementById('rate').value);
+		var newValue = value*interest;
+		document.getElementById("demo").innerHTML = newValue;
+	}
+	
+ </script>               
+<body>
+
+<div class="main">
+
+	<div class="main-text"><h1> You decided to buy a burger. Your burger cost you $8.99</h1>
+		<h3> Interest rate per month:</h3>
+		<input type="int" id="rate" value="1.2" disabled/>
+		<button onclick="getValue();">Click me to find out how much your item cost after GST&PST (12%)!</button>
+		<h3 id="test"> It now cost = <label id="demo"></label> </h3></div>
+			
+
+		
+		<button class="button" type="submit"><a class="linkText" href="end1.html"><span>Spend</span> </a></button>
+
+</div>
+<footer>
+</footer>
+</body>
+</html>
