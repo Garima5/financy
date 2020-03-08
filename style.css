@@ -1,0 +1,36 @@
+.button {
+	alignment-baseline: central;
+  background-color: #4FFF50; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 600px;
+}
+
+
+body {
+ background-color: #ffb399;
+}
+
+article{
+  background-color:  white;
+  padding: 250px 150px;
+  border-radius:36px;
+   margin: 2em 2em 2em 2em;
+  
+
+}
+
+div {
+  display: inline; list-style: none;
+  padding: 200px;
+}
+
+a:hover + div {
+    display: block;
+}
+
+ h1, h2, h3, nav, footer{
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+ }
