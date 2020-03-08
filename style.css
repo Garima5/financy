@@ -31,6 +31,6 @@ a:hover + div {
     display: block;
 }
 
- h1, h2, h3, nav, footer{
+ h1, h2, h3, h4, nav, label, button, footer{
   font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
  }
